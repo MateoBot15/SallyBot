@@ -5,7 +5,7 @@ throw false
 }
 let pesan = args.join` `
 let oi = `ღ Creador Wa.me/51929741688 SI QUIERES BOT COMUNICAME ${lenguajeGB['smsAddB5']()} ${pesan}`
-let teks = `╭━〔 *𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 ☘️ 〕━⬣\n\n${oi}\n\n`
+let teks = `╭━〔 𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 ☘️ 〕━⬣\n\n${oi}\n\n`
 for (let mem of participants) {
 teks += `┃☘️ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`
