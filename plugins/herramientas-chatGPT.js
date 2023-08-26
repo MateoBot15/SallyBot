@@ -11,7 +11,7 @@ try {
 conn.sendPresenceUpdate('composing', m.chat)  
 let chgptdb = global.chatgpt.data.users[m.sender];
 chgptdb.push({ role: 'user', content: text });
-const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Actuaras como un Bot de WhatsApp el cual fue creado por GataNina-Li, tu seras GataBot-MD' }, ...chgptdb ]})}
+const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Actuaras como un Bot de WhatsApp el cual fue creado por Meteo, tu seras MateoBot' }, ...chgptdb ]})}
 let response = await axios(config);
 chgptdb.push({ role: 'assistant', content: response.data.choices[0].message.content }) 
 if (response.data.choices[0].message.content == 'error' || response.data.choices[0].message.content == '' || !response.data.choices[0].message.content) return XD //causar error undefined para usar otra api    

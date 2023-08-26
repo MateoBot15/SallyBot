@@ -8,7 +8,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]  
 
 let texto0 = `${ag}𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍(𝘼) 𝙃𝘼 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙎𝙏𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙀𝙇 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙇𝙈𝙀𝙉𝙏𝙀 𝘼 𝙂𝙍𝙐𝙋𝙊𝙎 𝙑𝙐𝙀𝙇𝙑𝘼 𝙈𝘼𝙎 𝙏𝘼𝙍𝘿𝙀 𝙊 𝙐𝙎𝙀 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 *${usedPrefix}serbot*\n\n𝙈𝙔 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 𝙃𝘼𝙎 𝙍𝙀𝙎𝙏𝙍𝙄𝘾𝙏𝙀𝘿 𝙏𝙃𝙄𝙎 𝙁𝙐𝙉𝘾𝙏𝙄𝙊𝙉 𝙊𝙁 𝙀𝙉𝙏𝙀𝙍𝙄𝙉𝙂 𝙏𝙃𝙀 𝘽𝙊𝙏 𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙍𝙄𝙇𝙔 𝙏𝙊 𝙂𝙍𝙊𝙐𝙋𝙎 𝘾𝙊𝙈𝙀 𝘽𝘼𝘾𝙆 𝙇𝘼𝙏𝙀𝙍 𝙊𝙍 𝙐𝙎𝙀 𝙏𝙃𝙀 𝙁𝙐𝙉𝘾𝙏𝙄𝙊𝙉 *${usedPrefix}jadibot*`
