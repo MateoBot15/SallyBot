@@ -52,7 +52,7 @@ await conn.sendFile(m.chat, picture, 'gata.mp4', estado, fkontak)
 ┃➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰━━━━━━━━━━━━━━━━━━⬣`.trim()
 
-conn.sendHydrated(m.chat, estado, `𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, picture, 'https://github.com/GataNina-Li/GataBot-MD', '𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭', null, null, [
+conn.sendHydrated(m.chat, estado, `𝐒𝐚𝐥𝐥𝐲 𝐁𝐨𝐭 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, picture, 'https://github.com/GataNina-Li/GataBot-MD', '𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪', '.allmenu'],
 ['𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 | 𝙎𝙥𝙚𝙚𝙙', '/ping'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '#menu']
